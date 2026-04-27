@@ -15,17 +15,17 @@ Experimental results demonstrate the effectiveness of the proposed model compare
 
 ## 2. System Architecture Diagram
 
-<p align="center">
+<div align="center">
   <img src="images/architecture.svg" width="80%" style="border-radius: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.12);">
   <br>
   <figcaption align="center">
     <em>Figure 1. Proposed architecture.</em>
   </figcaption>
-</p>
+</div>
 
 ## 3. Datasets
 
-### 4.1 WLASL100
+### 3.1 WLASL100
 
 **WLASL100** is a subset of the Word-Level American Sign Language (WLASL) dataset, which is one of the largest publicly available benchmarks for isolated sign language recognition. The full WLASL dataset contains over 2,000 sign categories collected from real-world video sources.
 
@@ -39,7 +39,7 @@ WLASL100 is considered a challenging benchmark due to large intra-class variatio
 
 ---
 
-### 4.2 LSA64
+### 3.2 LSA64
 
 **LSA64** is a benchmark dataset for isolated sign recognition in Argentine Sign Language (LSA). It consists of:
 
@@ -53,19 +53,19 @@ Compared to WLASL100, LSA64 is more constrained in terms of background and recor
 
 Both datasets are widely used in the literature for benchmarking SOTA sign language recognition methods.
 
-### 4.3 Data Processing
+### 3.3 Data Processing
 
 The data preprocessing pipeline follows the procedure described in the [Siformer paper](https://dl.acm.org/doi/10.1145/3664647.3681578).
 
-### 4.4 Data Flow
+### 3.4 Data Flow
 
-<p align="center">
+<div align="center">
   <img src="images/data-flow.svg" width="80%" style="border-radius: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.12);">
   <br>
   <figcaption align="center">
     <em>Figure 2. Data flow diagram.</em>
   </figcaption>
-</p>
+</div>
 
 ## 4. SOTA
 
