@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-This project addresses the problem of automatic Sign Language Recognition (SLR), which aims to recognize and classify sign gestures from video sequences. Sign language recognition plays a crucial role in facilitating communication between the Deaf community and hearing individuals by enabling intelligent translation and interaction systems.
+This project addresses the problem of automatic Isolated Sign Language Recognition (ISLR), which aims to recognize and classify sign gestures from video sequences. Sign language recognition plays a crucial role in facilitating communication between the Deaf community and hearing individuals by enabling intelligent translation and interaction systems.
 
 In this work, we focus on isolated sign recognition using visual inputs, particularly skeleton-based representations extracted from video data. The proposed approach is designed to effectively model spatial-temporal patterns of human body and hand movements.
 
